@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int main(){
-	int a, b, menu;
+	int a, b, menu, kq1;
+	
 	float kq = 0; 
 	printf("nhap so thu nhat: ");
 	scanf("%d", &a); 
@@ -13,16 +14,16 @@ int main(){
 		scanf("%d", &menu);
 		switch(menu){
 			case 1:
-				kq = a + b; 
-				printf("%d + %d = %d\n", a, b, kq); 
+				kq1 = a + b; 
+				printf("%d + %d = %d\n", a, b, kq1); 
 				break; 
 			case 2:
-				kq = a - b; 
-				printf("%d - %d = %d\n", a, b, kq); 
+				kq1 = a - b; 
+				printf("%d - %d = %d\n", a, b, kq1); 
 				break; 
 			case 3:
-				kq = a * b; 
-				printf("%d * %d = %d\n", a, b, kq); 
+				kq1 =  a * b; 
+				printf("%d * %d = %d\n", a, b, kq1); 
 				break; 
 			case 4:
 				kq = (float) a / b; 
@@ -36,6 +37,6 @@ int main(){
 		} 
 	}
 	end: 
-	printf("thoat "); 
+	printf("thoat trang tinh!"); 
 	return 0; 
 }
