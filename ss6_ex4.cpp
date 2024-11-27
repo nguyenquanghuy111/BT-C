@@ -30,7 +30,7 @@ int main(){
             printf("\nNghiem thu nhat x1 = %0.2f\n",x1);
             printf("\nNghiem thu nhat  x2 = %0.2f\n",x2);
         } else if ( delta == 0) {
-            printf("\nphuong trinh có nghiem kep: x1 = x2 = %0.2f\n",-b/2*a);
+            printf("\nphuong trinh cÃ³ nghiem kep: x1 = x2 = %0.2f\n",-b/2*a);
         } else {
             printf("\nphuong trinh vo nghiem\n");
         }
@@ -39,4 +39,5 @@ int main(){
     printf("\n-------------------------------\n");
 	
 	//ket thuc 
+	return 0;
 } 
